@@ -1,0 +1,8 @@
+#summary Papers about research into backfilling schedulers
+
+ * ([http://www.cs.huji.ac.il/~feit/papers/SP2backfil01TPDS.ps.gz link]) ahuva's basic backfilling paper
+ * ([http://www.cs.huji.ac.il/~feit/papers/SlackBackfil99IPPS.ps.gz link]) more complicated backfilling algorithms
+ * ([http://www.cs.huji.ac.il/~feit/papers/Adapt05IPDPS.pdf link]) adaptive backfilling using a meta scheduler and sub schedulers
+ * ([http://www.cs.huji.ac.il/~feit/papers/Pred07TPDS.pdf link]) backfilling using history-based predictions
+ * ([http://www.cs.huji.ac.il/~feit/papers/SiteSim06TR.pdf link]) workload generation based on a user model with feedback
+

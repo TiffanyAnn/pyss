@@ -1,0 +1,14 @@
+#summary Project road map for the next few weeks
+
+=Roadmap=
+ * Finish initial prototype with a [StupidScheduling stupid scheduler]
+ * Integrate Ori's and Ahuva's code
+ * Finish a simpler design for the ConservativeBackfilling scheduler
+ * Implement the EasyBackfilling scheduler with the new design
+ * Compare results with existing simulators (sanity check)
+
+=Additional features=
+ * More schedulers
+ * Job input perturbations
+
+
