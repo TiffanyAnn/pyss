@@ -1,2 +1,2 @@
-Repository for the Scheduler Simulator.
-Work notes are currently in Google Notes, ask Ori Peleg about them.
+Repository for the Scheduler Simulator. Original code from https://code.google.com/archive/p/pyss/
+See wiki for notes from the original code repository
