@@ -1,5 +1,3 @@
-###! /usr/bin/env python2.4
-
 import sys
 if __debug__:
     import warnings

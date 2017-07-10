@@ -1,5 +1,0 @@
-#summary Description of the Maui backfilling algorithm
-
-This refers to the [http://www.clusterresources.com/pages/products/maui-cluster-scheduler.php Maui] scheduler.
-
-A description of the algorithm is available [http://www.clusterresources.com/products/maui/docs/8.2backfill.shtml here].
