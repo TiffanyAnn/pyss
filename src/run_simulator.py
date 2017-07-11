@@ -38,9 +38,10 @@ from schedulers.lookahead_easy_scheduler import LookAheadEasyBackFillScheduler
 from schedulers.orig_probabilistic_easy_scheduler import OrigProbabilisticEasyScheduler
 
 
+usage = "usage: %prog --num-processors=<numProcessors> --input-file=<file> --scheduler=<num> \n\t [--num-processors: the number of available processors in the simulated parallel machine] \n\t [--input-file: a workload trace in Standard Workload Format (SWF)] \n\t [--scheduler: \n\t\t1) FcfsScheduler, 2) ConservativeScheduler, 3) DoubleConservativeScheduler, 4) EasyBackfillScheduler \n\t\t5) DoubleEasyBackfillScheduler, 6) GreedyEasyBackfillScheduler, 7) EasyPlusPlusScheduler, 8) ShrinkingEasyScheduler \n\t\t9) LookAheadEasyBackFillScheduler, 10) EasySJBFScheduler, 11) HeadDoubleEasyScheduler, 12) TailDoubleEasyScheduler \n\t\t13) OrigProbabilisticEasyScheduler, 14) ReverseEasyScheduler, 15) PerfectEasyBackfillScheduler, 16) DoublePerfectEasyBackfillScheduler \n\t\t17) ProbabilisticNodesEasyScheduler, 18) AlphaEasyScheduler, 19) DoubleAlphaEasyScheduler, 20) ProbabilisticAlphaEasyScheduler"
 
 def parse_options():
-    parser = optparse.OptionParser()
+    parser = optparse.OptionParser(usage=usage)
     parser.add_option("--num-processors", type="int", \
                       help="the number of available processors in the simulated parallel machine")
     parser.add_option("--input-file", \
@@ -154,5 +155,5 @@ if __name__ == "__main__" and not "time" in sys.modules:
         import psyco
         psyco.full()
     except ImportError:
-        print "Psyco not available, will run slower (http://psyco.sourceforge.net)"
+        print "Psyco not available, will run slower (http://psyco.sourceforge.net)\n"
     main()

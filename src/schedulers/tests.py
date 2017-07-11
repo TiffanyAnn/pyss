@@ -35,8 +35,6 @@ from orig_probabilistic_easy_scheduler import OrigProbabilisticEasyScheduler
 #from shrinking_alpha_easy_scheduler import ShrinkingAlphaEasyScheduler
 
 from alpha_easy_scheduler import AlphaEasyScheduler
-from alpha_easy_plus_plus_scheduler import AlphaEasyPlusPlusScheduler
-
 
 from perfect_easy_scheduler import PerfectEasyBackfillScheduler
 from double_perfect_easy_scheduler import DoublePerfectEasyBackfillScheduler
