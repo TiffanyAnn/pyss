@@ -298,7 +298,6 @@ sub generate_header {
   $header .= "; Computer: Cori\n";
   $header .= "; Installation: NERSC - Lawrence Berkeley National Laboratory\n";
 
-  $header .= "; Acknowledge: Tiffany Connors, NERSC\n";
   $header .= "; Information: http://www.nersc.gov/users/computational-systems/cori/\n";
 
   $header .= sprintf("; Conversion: %s\n",
